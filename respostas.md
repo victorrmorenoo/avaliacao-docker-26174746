@@ -42,8 +42,11 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile val
 ## Parte 4 · Primeiro docker-compose
 
 7. Escreva os dois comandos `docker run` que fariam o mesmo que o seu `docker-compose.yml`.
+- `docker run --name portal -p 8046:80 victoormorenoo/viaserra-portal:1.0-26174746`
+- `docker run --name manutencao -p 7046:80 manutencao:26174746`
 
 8. Qual comando derruba os dois containers de uma vez?
+- `docker compose down`
 
 ## Verificador
 
