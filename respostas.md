@@ -32,11 +32,12 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile val
 
 | # | Instrução | O que estava errado | O que você viu acontecer | Como corrigiu |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
+| 1 |`WORKDIR /usr/share/nginx`|O diretório estava errado, faltava entrar na pasta `/html` que é onde o nginx procura os arquivos|O site deu erro 404 (Not Found)|Alterei a linha para `WORKDIR /usr/share/nginx/html`|
+| 2 |`COPY pagina/ .`|A pasta página não existe, e se existisse, os arquivos estariam sendo copiados para a pasta errada|O comando docker build quebrou com erro de arquivo não encontrado|Alterei a linha para `COPY site/. .`|
+| 3 |Faltou instrução `EXPOSE 80`|Não tem instrução `EXPSOE 80` para documentar a porta|O Nginx usa a porta 80 por padrão|Adicionei o comando `EXPOSE 80`|
 
 6. Qual a diferença entre `-p 7042:80` e `-p 80:7042` no `docker run`? Qual dos dois números é a porta do container?
+- `-p 7042:80` Utiliza a porta 7042 da minha máquina e a porta 80 no container, `-p 80:7042` utiliza a porta 80 na minha máquina e a porta 7042 no container, o segundo número é a porta do container
 
 ## Parte 4 · Primeiro docker-compose
 
