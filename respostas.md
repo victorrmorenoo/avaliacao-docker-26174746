@@ -53,5 +53,29 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile val
 9. Código de conclusão impresso pelo verificador:
 
 ```
-(cole aqui)
+================================================================                                                                                                                
+ Verificador · Avaliação Prática de Docker · Turma C
+================================================================
+ Matrícula 26174746 · portal 8046 · manutenção 7046
+
+A. Arquivos e Git                                                                                                                                                               
+[ OK ] A1 portal/Dockerfile segue os requisitos                                                                                                                                 
+[ OK ] A2 .env fora do Git e .env.example versionado                                                                                                                            
+[ OK ] A3 4+ commits e remoto no GitHub (encontrados: 5)                                                                                                                        
+[ OK ] A4 imagem victoormorenoo/viaserra-portal:1.0-26174746 pública no Docker Hub                                                                                              
+
+B. docker compose
+[ OK ] B1 serviços portal e manutencao em execução
+[ OK ] B2 portal roda a imagem publicada
+[ OK ] B3 portas: portal em 8046 e manutenção em 7046
+
+C. Conteúdo
+[ OK ] C1 portal mostra seu nome e sua matrícula
+[ OK ] C2 página de manutenção servindo o aviso "Voltamos em breve"
+
+================================================================
+ Resultado: 9/9 verificações
+ Código de conclusão: VIASERRA-26174746-AB27362C
+ Copie o código para o respostas.md, tire o print desta tela e faça o commit final.
+================================================================
 ```
