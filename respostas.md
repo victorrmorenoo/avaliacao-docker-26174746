@@ -1,9 +1,9 @@
 # Respostas · Avaliação Prática de Docker · ViaSerra Transportes (Turma C)
 
-Nome: Victor Moreno Barbara
-Matrícula: 26174746
-Usuário do GitHub: victorrmorenoo
-Usuário do Docker Hub: victoormorenoo
+**Nome:** Victor Moreno Barbara  
+**Matrícula:** 26174746  
+**Usuário do GitHub:** victorrmorenoo  
+**Usuário do Docker Hub:** victoormorenoo  
 
 Responda com as suas palavras e com o que aconteceu na SUA máquina. Resposta curta e certa vale mais
 do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile vale zero.
@@ -21,6 +21,8 @@ do que texto longo copiado. Resposta que contradiz o seu próprio Dockerfile val
 ## Parte 2 · Docker Hub
 
 3. Nome completo da imagem publicada e link público do repositório no Docker Hub.
+- **Nome completo da imagem:** victoormorenoo/viaserra-portal:1.0-26174746
+- **Link Público:** https://hub.docker.com/r/victoormorenoo/viaserra-portal
 
 4. Se você mudar o HTML, quais comandos precisa rodar para que a versão nova chegue ao Docker Hub?
 
